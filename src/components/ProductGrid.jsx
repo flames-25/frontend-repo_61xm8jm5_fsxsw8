@@ -38,7 +38,7 @@ export default function ProductGrid({ onAddToCart }) {
         {products.map((p) => (
           <div key={p.id} className="group">
             <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-100">
-              <img src={p.images?.[0] || 'https://images.unsplash.com/photo-1574755393849-623942496936?q=80&w=1200&auto=format&fit=crop'} alt={p.title} className="w-full h-full object-cover transition duration-500 group-hover:scale-105" />
+              <img src={p.images?.[0] || 'https://ae01.alicdn.com/kf/S7c7d3b3c8a6b4b9b9a2c0d1e2f3a4b5cS.jpg'} alt={p.title} className="w-full h-full object-cover transition duration-500 group-hover:scale-105" />
             </div>
             <div className="mt-3 flex items-start justify-between">
               <div>
